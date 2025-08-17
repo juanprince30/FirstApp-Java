@@ -9,9 +9,10 @@
 
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mainactivity"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.536"
@@ -38,7 +39,7 @@
         android:layout_marginTop="284dp"
         android:autofillHints="Nom Utilisateur"
         android:inputType="textPersonName"
-        android:text="@string/nom_utilisateur"
+        android:text=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toStartOf="parent"
